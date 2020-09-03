@@ -1,0 +1,11 @@
+C:\Users\starr\Desktop\Personal Projects\CharacterCreatorProgram\bin\Debug\CharacterCreatorProgram.exe.config
+C:\Users\starr\Desktop\Personal Projects\CharacterCreatorProgram\bin\Debug\CharacterCreatorProgram.exe
+C:\Users\starr\Desktop\Personal Projects\CharacterCreatorProgram\bin\Debug\CharacterCreatorProgram.pdb
+C:\Users\starr\Desktop\Personal Projects\CharacterCreatorProgram\obj\Debug\CharacterCreatorProgram.csprojAssemblyReference.cache
+C:\Users\starr\Desktop\Personal Projects\CharacterCreatorProgram\obj\Debug\CharacterCreatorProgram.FRM_Main.resources
+C:\Users\starr\Desktop\Personal Projects\CharacterCreatorProgram\obj\Debug\CharacterCreatorProgram.FRM_Race.resources
+C:\Users\starr\Desktop\Personal Projects\CharacterCreatorProgram\obj\Debug\CharacterCreatorProgram.FRM_Class.resources
+C:\Users\starr\Desktop\Personal Projects\CharacterCreatorProgram\obj\Debug\CharacterCreatorProgram.Properties.Resources.resources
+C:\Users\starr\Desktop\Personal Projects\CharacterCreatorProgram\obj\Debug\CharacterCreatorProgram.csproj.GenerateResource.cache
+C:\Users\starr\Desktop\Personal Projects\CharacterCreatorProgram\obj\Debug\CharacterCreatorProgram.exe
+C:\Users\starr\Desktop\Personal Projects\CharacterCreatorProgram\obj\Debug\CharacterCreatorProgram.pdb
