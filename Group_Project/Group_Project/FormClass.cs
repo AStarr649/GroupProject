@@ -11,6 +11,7 @@ namespace Group_Project
         public static LoginForm sf = new LoginForm();
         public static InfoForm infoF = new InfoForm();
         public static MenuForm menuF = new MenuForm();
+        public static PWRecoverForm pwreF = new PWRecoverForm();
         public static Char_CreationForm charF = new Char_CreationForm();
         public static char_ClassesForm cClassF = new char_ClassesForm();
         public static char_RacesForm cRaceF = new char_RacesForm();
