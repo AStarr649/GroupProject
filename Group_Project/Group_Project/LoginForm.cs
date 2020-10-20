@@ -39,7 +39,8 @@ namespace Group_Project
 
         private void linkPWReset_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            this.Visible = false;
+            FormClass.pwreF.Visible = true;
         }
 
         private void btnInformation_Click(object sender, EventArgs e)
