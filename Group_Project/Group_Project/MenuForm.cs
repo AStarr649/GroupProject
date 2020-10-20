@@ -17,6 +17,25 @@ namespace Group_Project
         public MenuForm()
         {
             InitializeComponent();
+            switch(Role)
+            {
+                case 'O':
+                    btnCharCreate.Enabled = false;
+                    btnParCreate.Enabled = false;
+                    break;
+                case 'P':
+                    btnParCreate.Enabled = false;
+                    break;
+                case 'D':
+                    break;
+                default:
+                    break;
+            }
+        }
+        
+        private void exitToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
