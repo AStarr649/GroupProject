@@ -40,7 +40,7 @@
             // 
             // btnOkay
             // 
-            this.btnOkay.Location = new System.Drawing.Point(186, 392);
+            this.btnOkay.Location = new System.Drawing.Point(186, 417);
             this.btnOkay.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnOkay.Name = "btnOkay";
             this.btnOkay.Size = new System.Drawing.Size(112, 35);
@@ -61,7 +61,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(59, 260);
+            this.label1.Location = new System.Drawing.Point(59, 280);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 20);
             this.label1.TabIndex = 2;
@@ -70,7 +70,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(59, 305);
+            this.label2.Location = new System.Drawing.Point(59, 330);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 20);
             this.label2.TabIndex = 3;
@@ -79,7 +79,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(59, 350);
+            this.label3.Location = new System.Drawing.Point(59, 377);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(128, 20);
             this.label3.TabIndex = 4;
@@ -88,35 +88,38 @@
             // lblObsPass
             // 
             this.lblObsPass.AutoSize = true;
-            this.lblObsPass.Location = new System.Drawing.Point(332, 260);
+            this.lblObsPass.Location = new System.Drawing.Point(246, 270);
             this.lblObsPass.Name = "lblObsPass";
-            this.lblObsPass.Size = new System.Drawing.Size(52, 20);
+            this.lblObsPass.Size = new System.Drawing.Size(171, 40);
             this.lblObsPass.TabIndex = 5;
-            this.lblObsPass.Text = "pass7";
+            this.lblObsPass.Text = "Used to view created \r\ncharacters and parties.";
+            this.lblObsPass.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblPlayPass
             // 
             this.lblPlayPass.AutoSize = true;
-            this.lblPlayPass.Location = new System.Drawing.Point(332, 305);
+            this.lblPlayPass.Location = new System.Drawing.Point(226, 330);
             this.lblPlayPass.Name = "lblPlayPass";
-            this.lblPlayPass.Size = new System.Drawing.Size(52, 20);
+            this.lblPlayPass.Size = new System.Drawing.Size(193, 20);
             this.lblPlayPass.TabIndex = 6;
-            this.lblPlayPass.Text = "pass3";
+            this.lblPlayPass.Text = "Used to create characters";
+            this.lblPlayPass.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblDMPass
             // 
             this.lblDMPass.AutoSize = true;
-            this.lblDMPass.Location = new System.Drawing.Point(332, 350);
+            this.lblDMPass.Location = new System.Drawing.Point(250, 365);
             this.lblDMPass.Name = "lblDMPass";
-            this.lblDMPass.Size = new System.Drawing.Size(52, 20);
+            this.lblDMPass.Size = new System.Drawing.Size(149, 40);
             this.lblDMPass.TabIndex = 7;
-            this.lblDMPass.Text = "pass1";
+            this.lblDMPass.Text = "Used to create and \r\nmanage parties.";
+            this.lblDMPass.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // InfoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(490, 444);
+            this.ClientSize = new System.Drawing.Size(490, 473);
             this.Controls.Add(this.lblDMPass);
             this.Controls.Add(this.lblPlayPass);
             this.Controls.Add(this.lblObsPass);
@@ -128,6 +131,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "InfoForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "InfoForm";
             this.ResumeLayout(false);
             this.PerformLayout();

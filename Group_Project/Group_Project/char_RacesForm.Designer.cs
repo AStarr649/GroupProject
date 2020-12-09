@@ -69,6 +69,7 @@
             this.lbxRaces.Name = "lbxRaces";
             this.lbxRaces.Size = new System.Drawing.Size(155, 152);
             this.lbxRaces.TabIndex = 2;
+            this.lbxRaces.SelectedIndexChanged += new System.EventHandler(this.lbxRaces_SelectedIndexChanged);
             // 
             // lblRaceDesc
             // 
@@ -110,8 +111,9 @@
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnSelect);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "char_RacesForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Races";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

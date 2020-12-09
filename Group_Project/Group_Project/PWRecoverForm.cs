@@ -20,50 +20,18 @@ namespace Group_Project
 
         private void btnRecover_Click(object sender, EventArgs e)
         {
-            using (DataClassesDataContext db = new DataClassesDataContext())
-            {
-                db.spCheckEmail(txtEmail_In.Text, "CheckEmail", ref result, ref question, txtSecurAnw.Text, txtConfirmNewPW.Text);
-                db.SubmitChanges();
-                MessageBox.Show(result);
-                if(result == "Enter new Password !!!")
-                {
-                    txtSecurityQ.Text = question;
-                    gbxChangePW.Show();
-                }
-                else
-                {
-                    txtSecurityQ.Text = "";
-                    gbxChangePW.Hide();
-                }
-            }
+            ConnectDataBases.SendOTP(txtEmail_In.Text);
         }
 
         private void btnChangePW_Click(object sender, EventArgs e)
         {
-            if(txtNewPW.Text == txtConfirmNewPW.Text)
-            {
-                using (DataClassesDataContext db = new DataClassesDataContext())
-                {
-                    db.spCheckEmail(txtEmail_In.Text, "ChangePassword", ref result, txtSecurAnw.Text, txtConfirmNewPW.Text);
-                    db.SubmitChanges();
-                    MessageBox.Show(result);
-                    txtEmail_In.Text = "";
-                    txtSecurAnw.Text = "";
-                    txtNewPW.Text = "";
-                    txtConfirmNewPW.Text = "";
-                    txtSecurityQ.Text = "";
-                    gbxSecurity.Hide();
-                    gbxChangePW.Hide();
-                }
-            }
-            else
-            {
-                MessageBox.Show("Password does not match.");
-            }
+            string loggedInUsername = ConnectVariables.GetLoggedInUsernameAs();
+            ConnectDataBases.ResetPassword(loggedInUsername, txtNewPW.Text, txtConfirmNewPW.Text);
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
+            /*
             using (DataClassesDataContext db = new DataClassesDataContext())
             {
                 db.spCheckEmail(txtEmail_In.Text, "CheckSecurity", ref result, ref question, txtSecurAnw.Text, txtConfirmNewPW.Text);
@@ -79,13 +47,46 @@ namespace Group_Project
                     txtSecurityQ.Text = "";
                     gbxChangePW.Hide();
                 }
-            }
+            }*/
         }
 
-        private void PWRecoverForm_Load(object sender, EventArgs e)
+        private void btnReturn_Click(object sender, EventArgs e)
         {
-            gbxSecurity.Hide();
-            gbxChangePW.Hide();
+
+            string lastForm = "";
+
+
+            lastForm = ConnectVariables.GetLasetLoggedFormAs();
+
+            FormClass.pwreF.Hide();
+
+            if (lastForm == "loginF")
+            {
+                FormClass.sf.Show();
+            }
+            else if (lastForm == "menuF")
+            {
+                FormClass.menuF.Show();
+                FormClass.menuF.UpdateMenuFormForRole();
+            }
+
         }
+
+        private void exitToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        public void UpdatePWRecoverForm()
+        {
+            System.Console.WriteLine("ENTERING PW RECOVER LOADING");
+            bool viewAsLoggedIn;
+            viewAsLoggedIn = ConnectVariables.GetPasswordRecoverViewAs();
+            if (viewAsLoggedIn == false)
+                gbxChangePW.Hide();
+            else
+                gbxChangePW.Show();
+            gbxRecoverPW.Show();
+        }        
     }
 }

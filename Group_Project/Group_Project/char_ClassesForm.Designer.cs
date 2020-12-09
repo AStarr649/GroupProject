@@ -40,7 +40,7 @@
             // 
             this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.Location = new System.Drawing.Point(293, 200);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(70, 30);
             this.btnCancel.TabIndex = 8;
@@ -52,7 +52,7 @@
             // 
             this.btnSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSelect.Location = new System.Drawing.Point(215, 200);
-            this.btnSelect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSelect.Margin = new System.Windows.Forms.Padding(4);
             this.btnSelect.Name = "btnSelect";
             this.btnSelect.Size = new System.Drawing.Size(70, 30);
             this.btnSelect.TabIndex = 7;
@@ -67,9 +67,9 @@
             this.groupBox1.Controls.Add(this.lblClassDesc);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(16, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(347, 177);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
@@ -91,19 +91,20 @@
             "Caster",
             "Elementalist"});
             this.lbxClasses.Location = new System.Drawing.Point(8, 25);
-            this.lbxClasses.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lbxClasses.Margin = new System.Windows.Forms.Padding(4);
             this.lbxClasses.Name = "lbxClasses";
-            this.lbxClasses.Size = new System.Drawing.Size(89, 137);
+            this.lbxClasses.Size = new System.Drawing.Size(113, 137);
             this.lbxClasses.TabIndex = 2;
+            this.lbxClasses.SelectedIndexChanged += new System.EventHandler(this.lbxClasses_SelectedIndexChanged);
             // 
             // lblClassDesc
             // 
             this.lblClassDesc.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.lblClassDesc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblClassDesc.Location = new System.Drawing.Point(105, 25);
+            this.lblClassDesc.Location = new System.Drawing.Point(129, 25);
             this.lblClassDesc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblClassDesc.Name = "lblClassDesc";
-            this.lblClassDesc.Size = new System.Drawing.Size(230, 137);
+            this.lblClassDesc.Size = new System.Drawing.Size(206, 146);
             this.lblClassDesc.TabIndex = 1;
             // 
             // char_ClassesForm
@@ -115,8 +116,9 @@
             this.Controls.Add(this.btnSelect);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "char_ClassesForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Classes";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

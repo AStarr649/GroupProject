@@ -1,0 +1,55 @@
+﻿FORM 
+
+10x5 items at a time
+
+rowValue get the current row value
+maxIndex = 35
+currentIndex = 0
+pages = 0
+maxPages
+
+LAST PAGE   NEXT PAGE
+
+
+UPDATE()
+{
+	UPDATE FORM
+	Grab maxIndex;
+	maxPages = maxIndex/10
+
+	   35			2			35/10 = 3
+	maxIndex < pages * (maxIndex/10)
+
+	
+	Load for (int i = rowValue; i < maxIndex && rowValue <=9; ++i)
+	{
+			rowVlaue + 1;
+			lists all items in row
+
+	}
+}
+
+if (NextPage)
+{
+	pages += 1
+
+	pagesdivided into max index = max index / 10 
+	if pages = max pages
+		disabe next button
+	else if max index = pageddevided into maxindex
+	{
+		pagesdevided into maxindex = total pages 
+	}
+	else 
+	{ 
+		max index - pagesdevided into max index give the remainding row total and disable next button
+	}
+	
+}
+if (LastPage)
+{
+
+	pages -= 1
+	if (pages < 0)
+	 pages = 0
+}

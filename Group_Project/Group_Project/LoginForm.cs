@@ -13,7 +13,7 @@ namespace Group_Project
     public partial class LoginForm : Form
     {
         public UserSettings uSet;
-        public string obsPass, playPass, dmPass;
+        //public string obsPass="pass7", playPass="pass3", dmPass="pass1";
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
@@ -24,7 +24,7 @@ namespace Group_Project
 
         void LoginForm_FormClosing(object sender, FormClosingEventArgs e)
         {
-            uSet.Save();
+            //uSet.Save();
         }
 
         public LoginForm()
@@ -40,41 +40,55 @@ namespace Group_Project
         private void linkPWReset_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Visible = false;
+            bool loggedIn = false;
+            string form = "loginF";
+            Console.WriteLine("\n\nForm: " + form);
+            ConnectVariables.SetPasswordRecoverViewAs(loggedIn);
+            ConnectVariables.SetLasetLoggedFormAs(form);
             FormClass.pwreF.Visible = true;
+            FormClass.pwreF.UpdatePWRecoverForm();
+        }
+
+        private void lnkCreateAcct_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Visible = false;
+            FormClass.createAccF.Show();
         }
 
         private void btnInformation_Click(object sender, EventArgs e)
         {
-            FormClass.infoF.Visible = true;
+            try
+            {
+                FormClass.infoF.Show();
+            }
+            catch (Exception x)
+            {
+                Console.WriteLine(x);
+            }
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
-            if(cboRole.SelectedIndex == 0 && txtPassWord.Text == obsPass)
+            if (cboRole.Text != "")
             {
-                FormClass.menuF.Role = 'O';
-                FormClass.menuF.Visible = true;
-                this.FormClosing += new FormClosingEventHandler(LoginForm_FormClosing);
-                this.Visible = false;
-            }
-            else if(cboRole.SelectedIndex == 1 && txtPassWord.Text == playPass)
-            {
-                FormClass.menuF.Role = 'P';
-                FormClass.menuF.Visible = true;
-                this.FormClosing += new FormClosingEventHandler(LoginForm_FormClosing);
-                this.Visible = false;
-            }
-            else if(cboRole.SelectedIndex == 2 && txtPassWord.Text == dmPass)
-            {
-                FormClass.menuF.Role = 'D';
-                FormClass.menuF.Visible = true;
-                this.FormClosing += new FormClosingEventHandler(LoginForm_FormClosing);
-                this.Visible = false;
+                bool valid = ConnectDataBases.LoginCheck(txtUserID.Text, txtPassWord.Text, cboRole.Text);
+                if (valid)
+                {
+                    //This is suppose to be tied to the user settings of theme/customization 
+                    //being saved to that user. if the user changes the theme or font or watever settings 
+                    //we make for customization, it saves and keeps those choices throughout the program 
+                    //from form to form
+                    this.FormClosing += new FormClosingEventHandler(LoginForm_FormClosing);                        
+                    this.Visible = false; 
+                    FormClass.menuF.Visible = true;
+                    FormClass.menuF.UpdateMenuFormForRole();
+                    txtUserID.Text = "";
+                    txtPassWord.Text = "";
+                }
             }
             else
             {
-                MessageBox.Show("Incorrect password entered. Please ensure password entered correctly for selected role.",
-                    "Invalid password");
+                MessageBox.Show("Please select a role to login as.");
             }
         }
     }

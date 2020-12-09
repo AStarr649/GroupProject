@@ -13,9 +13,7 @@ namespace Group_Project
     public partial class InfoForm : Form
     {
         public string infoText = "This program is a collaborated project created by Alexander Starr and Ty Robinson." +
-            "\n\nEach role has certain privelages that others may not, for example Observers cannot edit characters or parties." +
-            "\n\nCurrent passwords for each role will be provided below for quick access," +
-            " however the option to change these are provided on the login page and will be updated to reflect this below.";
+            "\n\nEach role has certain privelages that others may not, for example Observers cannot edit characters or parties.";
 
         public InfoForm()
         {
@@ -25,7 +23,7 @@ namespace Group_Project
 
         private void btnOkay_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Visible = false;
         }
     }
 }

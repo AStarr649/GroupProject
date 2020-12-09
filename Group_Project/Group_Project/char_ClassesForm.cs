@@ -19,17 +19,19 @@ namespace Group_Project
 
         private void btnSelect_Click(object sender, EventArgs e)
         {
-            FormClass.charF.char_Class = lbxClasses.SelectedIndex.ToString();
-            this.Close();
-            FormClass.charF.Enabled = true;
+            FormClass.charF.class_index = lbxClasses.SelectedIndex;
+            FormClass.charF.char_Class = lbxClasses.SelectedItem.ToString();
+            FormClass.charF.Update('C');
+            FormClass.cClassF.Hide();
+            FormClass.charF.Show();
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
-            this.Close();
-            FormClass.charF.Enabled = true;
+            FormClass.cClassF.Hide();
+            FormClass.charF.Show();
         }
-        
+
         private void lbxClasses_SelectedIndexChanged(object sender, EventArgs e)
         {
             switch (lbxClasses.SelectedIndex)

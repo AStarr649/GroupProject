@@ -10,3 +10,65 @@ C:\Users\starr\Desktop\School\Progress 2\Group_Project\Group_Project\bin\Debug\G
 C:\Users\starr\Desktop\School\Progress 2\Group_Project\Group_Project\obj\Debug\Group_Project.exe
 C:\Users\starr\Desktop\School\Progress 2\Group_Project\Group_Project\obj\Debug\Group_Project.pdb
 C:\Users\starr\Desktop\School\Progress 2\Group_Project\Group_Project\obj\Debug\Group_Project.MenuForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.csprojAssemblyReference.cache
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.CharacterList.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.char_ClassesForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.Char_CreationForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.char_RacesForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.CreateAccountForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.InfoForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.LoginForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.PartyLists.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.PartyMakerForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.Properties.Resources.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.PWRecoverForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.csproj.GenerateResource.cache
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.csproj.CoreCompileInputs.cache
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.exe
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.pdb
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\bin\Debug\Group_Project.exe.config
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\bin\Debug\Group_Project.exe
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\bin\Debug\Group_Project.pdb
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\Group_Project\Group_Project\obj\Debug\Group_Project.MenuForm.resources
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\bin\Debug\Group_Project.exe.config
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\bin\Debug\Group_Project.exe
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\bin\Debug\Group_Project.pdb
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.csprojAssemblyReference.cache
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.CharacterList.resources
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.char_ClassesForm.resources
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.Char_CreationForm.resources
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.char_RacesForm.resources
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.CreateAccountForm.resources
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.InfoForm.resources
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.LoginForm.resources
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.MenuForm.resources
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.PartyLists.resources
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.PartyMakerForm.resources
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.Properties.Resources.resources
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.PWRecoverForm.resources
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.csproj.GenerateResource.cache
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.csproj.CoreCompileInputs.cache
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.exe
+C:\Users\starr\Desktop\School\updatedProject\Group_Project\Group_Project\obj\Debug\Group_Project.pdb
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\bin\Debug\Group_Project.exe.config
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\bin\Debug\Group_Project.exe
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\bin\Debug\Group_Project.pdb
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.csprojAssemblyReference.cache
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.CharacterList.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.char_ClassesForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.Char_CreationForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.char_RacesForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.CreateAccountForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.InfoForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.LoginForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.MenuForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.PartyLists.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.PartyMakerForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.Properties.Resources.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.PWRecoverForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.csproj.GenerateResource.cache
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.csproj.CoreCompileInputs.cache
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.exe
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.pdb
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.Char_SelectEditForm.resources
+C:\Users\Icebo\Documents\Pc\Non Pc\School Work\Comp Software\_THE PROJECT(passback)\CURRENT PASS\updatedProject_11_6\Group_Project\Group_Project\obj\Debug\Group_Project.PartySelectEditForm.resources
